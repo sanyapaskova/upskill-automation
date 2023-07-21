@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "allowJs": true,
+    "noEmit": false,
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "resolveJsonModule": true,
+  },
+  "json": {
+    "enabled": true,
+    "output": "jsonlogs/log.json",
+    "formatter": "cucumber-json-formatter.exe"
+  },
+  "messages": {
+    "enabled": true,
+    "output": "jsonlogs/messages.ndjson"
+  },
+  "html": {
+    "enabled": true
+  },
+}
